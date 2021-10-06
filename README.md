@@ -1,5 +1,7 @@
 # ESLint configuration for TypeScript projects
 
+[![Build](https://github.com/TheBoxEscapeGame/thbx-eslint-config-typescript/actions/workflows/build.yaml/badge.svg)](https://github.com/TheBoxEscapeGame/thbx-eslint-config-typescript/actions/workflows/build.yaml)
+
 This is the standard ESLint configuration we use for TypeScript projects at [The Box Escape Rooms](https://the-box.fr/en/online/).
 
 ## Usage
