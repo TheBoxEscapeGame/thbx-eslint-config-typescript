@@ -1,0 +1,31 @@
+{
+  "name": "@thbx/eslint-config-typescript",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "prettier": "@thbx/prettier-config",
+  "scripts": {
+    "format": "prettier --write .",
+    "build": "tsc --build --clean && tsc --build",
+    "check:eslint": "eslint --max-warnings 0 '**/*.ts'",
+    "check:prettier": "prettier --check .",
+    "check": "npm run check:prettier && npm run check:eslint"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-sonarjs": "^0.10.0"
+  },
+  "devDependencies": {
+    "@thbx/prettier-config": "^1.0.0",
+    "@types/eslint": "^7.28.0",
+    "eslint": "^7.32.0",
+    "typescript": "^4.4.3"
+  }
+}
