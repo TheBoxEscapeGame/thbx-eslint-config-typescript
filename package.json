@@ -4,7 +4,6 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
-  "prettier": "@thbx/prettier-config",
   "scripts": {
     "format": "prettier --write .",
     "build": "tsc --build --clean && tsc --build",
@@ -23,7 +22,6 @@
     "eslint-plugin-sonarjs": "^0.10.0"
   },
   "devDependencies": {
-    "@thbx/prettier-config": "^1.0.0",
     "@types/eslint": "^7.28.0",
     "eslint": "^7.32.0",
     "typescript": "^4.4.3"
