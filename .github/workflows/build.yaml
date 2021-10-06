@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm install
-      - name: Static checks
-        run: npm run check
       - name: Build
         run: npm run build
+      - name: Static checks
+        run: npm run check
